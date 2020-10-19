@@ -1,0 +1,6 @@
+
+Compose Action 1. Compose Table Border 
+replace(body('Create_HTML_table'), '<table>', '<table border="1">')
+
+Compose Action 2. 
+replace(outputs('Compose'), '<td>', '<td style="padding:5px">')
