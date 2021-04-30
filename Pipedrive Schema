@@ -1,0 +1,373 @@
+{
+    "type": "object",
+    "properties": {
+        "v": {
+            "type": "integer"
+        },
+        "matches_filters": {
+            "type": "object",
+            "properties": {
+                "current": {
+                    "type": "array"
+                }
+            }
+        },
+        "meta": {
+            "type": "object",
+            "properties": {
+                "v": {
+                    "type": "integer"
+                },
+                "action": {
+                    "type": "string"
+                },
+                "object": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "company_id": {
+                    "type": "integer"
+                },
+                "user_id": {
+                    "type": "integer"
+                },
+                "host": {
+                    "type": "string"
+                },
+                "timestamp": {
+                    "type": "integer"
+                },
+                "timestamp_micro": {
+                    "type": "integer"
+                },
+                "request_timestamp": {
+                    "type": "integer"
+                },
+                "permitted_user_ids": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer"
+                    }
+                },
+                "trans_pending": {
+                    "type": "boolean"
+                },
+                "is_bulk_update": {
+                    "type": "boolean"
+                },
+                "pipedrive_service_name": {
+                    "type": "boolean"
+                },
+                "change_source": {
+                    "type": "string"
+                },
+                "matches_filters": {
+                    "type": "object",
+                    "properties": {
+                        "current": {
+                            "type": "array"
+                        }
+                    }
+                },
+                "prepublish_timestamp": {
+                    "type": "integer"
+                },
+                "webhook_id": {
+                    "type": "string"
+                }
+            }
+        },
+        "current": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "creator_user_id": {
+                    "type": "integer"
+                },
+                "user_id": {
+                    "type": "integer"
+                },
+                "person_id": {
+                    "type": "integer"
+                },
+                "org_id": {
+                    "type": "integer"
+                },
+                "stage_id": {
+                    "type": "integer"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "integer"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "add_time": {
+                    "type": "string"
+                },
+                "update_time": {
+                    "type": "string"
+                },
+                "stage_change_time": {
+                    "type": "string"
+                },
+                "active": {
+                    "type": "boolean"
+                },
+                "deleted": {
+                    "type": "boolean"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "probability": {},
+                "next_activity_date": {},
+                "next_activity_time": {},
+                "next_activity_id": {},
+                "last_activity_id": {},
+                "last_activity_date": {},
+                "lost_reason": {},
+                "visible_to": {
+                    "type": "string"
+                },
+                "close_time": {},
+                "pipeline_id": {
+                    "type": "integer"
+                },
+                "won_time": {},
+                "first_won_time": {},
+                "lost_time": {},
+                "products_count": {
+                    "type": "integer"
+                },
+                "files_count": {
+                    "type": "integer"
+                },
+                "notes_count": {
+                    "type": "integer"
+                },
+                "followers_count": {
+                    "type": "integer"
+                },
+                "email_messages_count": {
+                    "type": "integer"
+                },
+                "activities_count": {
+                    "type": "integer"
+                },
+                "done_activities_count": {
+                    "type": "integer"
+                },
+                "undone_activities_count": {
+                    "type": "integer"
+                },
+                "participants_count": {
+                    "type": "integer"
+                },
+                "expected_close_date": {},
+                "last_incoming_mail_time": {},
+                "last_outgoing_mail_time": {},
+                "label": {},
+                "606dcc2ddadb0ada030564192b95f80be6fc82d3": {
+                    "type": "string"
+                },
+                "11d2316b22a58b7c03f608c2fcd695fb14bc7186": {
+                    "type": "string"
+                },
+                "stage_order_nr": {
+                    "type": "integer"
+                },
+                "person_name": {
+                    "type": "string"
+                },
+                "org_name": {
+                    "type": "string"
+                },
+                "next_activity_subject": {},
+                "next_activity_type": {},
+                "next_activity_duration": {},
+                "next_activity_note": {},
+                "formatted_value": {
+                    "type": "string"
+                },
+                "weighted_value": {
+                    "type": "integer"
+                },
+                "formatted_weighted_value": {
+                    "type": "string"
+                },
+                "weighted_value_currency": {
+                    "type": "string"
+                },
+                "rotten_time": {},
+                "owner_name": {
+                    "type": "string"
+                },
+                "cc_email": {
+                    "type": "string"
+                },
+                "org_hidden": {
+                    "type": "boolean"
+                },
+                "person_hidden": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "previous": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "creator_user_id": {
+                    "type": "integer"
+                },
+                "user_id": {
+                    "type": "integer"
+                },
+                "person_id": {
+                    "type": "integer"
+                },
+                "org_id": {
+                    "type": "integer"
+                },
+                "stage_id": {
+                    "type": "integer"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "integer"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "add_time": {
+                    "type": "string"
+                },
+                "update_time": {
+                    "type": "string"
+                },
+                "stage_change_time": {
+                    "type": "string"
+                },
+                "active": {
+                    "type": "boolean"
+                },
+                "deleted": {
+                    "type": "boolean"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "probability": {},
+                "next_activity_date": {},
+                "next_activity_time": {},
+                "next_activity_id": {},
+                "last_activity_id": {},
+                "last_activity_date": {},
+                "lost_reason": {},
+                "visible_to": {
+                    "type": "string"
+                },
+                "close_time": {},
+                "pipeline_id": {
+                    "type": "integer"
+                },
+                "won_time": {},
+                "first_won_time": {},
+                "lost_time": {},
+                "products_count": {
+                    "type": "integer"
+                },
+                "files_count": {
+                    "type": "integer"
+                },
+                "notes_count": {
+                    "type": "integer"
+                },
+                "followers_count": {
+                    "type": "integer"
+                },
+                "email_messages_count": {
+                    "type": "integer"
+                },
+                "activities_count": {
+                    "type": "integer"
+                },
+                "done_activities_count": {
+                    "type": "integer"
+                },
+                "undone_activities_count": {
+                    "type": "integer"
+                },
+                "participants_count": {
+                    "type": "integer"
+                },
+                "expected_close_date": {},
+                "last_incoming_mail_time": {},
+                "last_outgoing_mail_time": {},
+                "label": {},
+                "606dcc2ddadb0ada030564192b95f80be6fc82d3": {
+                    "type": "string"
+                },
+                "11d2316b22a58b7c03f608c2fcd695fb14bc7186": {
+                    "type": "string"
+                },
+                "stage_order_nr": {
+                    "type": "integer"
+                },
+                "person_name": {
+                    "type": "string"
+                },
+                "org_name": {
+                    "type": "string"
+                },
+                "next_activity_subject": {},
+                "next_activity_type": {},
+                "next_activity_duration": {},
+                "next_activity_note": {},
+                "formatted_value": {
+                    "type": "string"
+                },
+                "weighted_value": {
+                    "type": "integer"
+                },
+                "formatted_weighted_value": {
+                    "type": "string"
+                },
+                "weighted_value_currency": {
+                    "type": "string"
+                },
+                "rotten_time": {},
+                "owner_name": {
+                    "type": "string"
+                },
+                "cc_email": {
+                    "type": "string"
+                },
+                "org_hidden": {
+                    "type": "boolean"
+                },
+                "person_hidden": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "event": {
+            "type": "string"
+        },
+        "retry": {
+            "type": "integer"
+        }
+    }
+}
